@@ -127,7 +127,7 @@ class Tamagutchi {
         name.innerText = `${input}: ${select}`
         document.body.append(container);
         const image = document.createElement('img')
-        image.src  = '/src/images/horse.jpg'
+        image.src  = 'https://www.shutterstock.com/image-vector/happy-cartoon-horse-blank-sign-260nw-63311242.jpg'
         image.style.width = '150px'
         image.style.height = '150px'
         container.append(image)
@@ -145,7 +145,7 @@ class Tamagutchi {
         name.innerText = `${input} : ${select}`
         document.body.append(container);
         const image = document.createElement('img')
-        image.src  = '/src/images/dog.png'
+        image.src  = 'https://freesvg.org/img/lemmling-Cartoon-dog-Laughing.png'
         image.style.width = '150px'
         image.style.height = '150px'
         container.append(image)
