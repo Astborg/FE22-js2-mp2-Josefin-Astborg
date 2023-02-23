@@ -67,7 +67,8 @@ class Tamagutchi {
           div.style.fontSize = '20px'
           container.appendChild(div)
           theHappyness += 0
-          
+          insideBtnPlay.disabled = true
+          insideBtnFeed.disabled = true
 
         }
       }, 1000);
@@ -85,6 +86,8 @@ class Tamagutchi {
           div.style.fontSize = '20px'
           container.appendChild(div)
           theHungryness += 0
+          insideBtnPlay.disabled = true
+          insideBtnFeed.disabled = true
           
         }
       }, 2000);
